@@ -1,0 +1,145 @@
+body {
+    margin: 1%;
+    padding: 1%;
+    background: #ffffff;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgb(121, 119, 119);
+    padding-bottom: 5%;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+ header li {
+    margin: 10px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background: rgba(230, 221, 221, 0.795);
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+
+main img {
+    width: 80%;
+    height: 80%;
+}
+
+main h2 {
+    font-size: 250%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5%;
+    margin: 5%;
+}
+
+.card-container {
+    height: 50%;
+    perspective: 600;
+    position: relative;
+    width: 100%;
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 2s ease-in-out;
+    width: 100%;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .card .back {
+    transform: rotateY(180deg);
+  }
+
+  #intro-p {
+      font-size: 150%;
+      font-weight: bold;
+  }
+
+  .quote-container {
+      background: rgba(174, 243, 191, 0.795);
+      padding: 5%;
+      height: 25%;
+
+  }
+
+  .quote-container p {
+      font-size: 20px;
+      font-weight: bold;
+      
+  }
+  
+  .foot-container {
+      padding: 5%;
+      border-bottom: 3px solid rgb(216 203 203);
+  }
+
+
+  .foot-container a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      margin: 5%;
+      padding: 5%;
+      font-size: 150%;
+    
+  }
+
+  .foot-container-two a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 5%;
+    padding: 5%;
+    font-size: 150%;
+  
+}
+
+  .foot-container-two h3{
+      font-size: 200%;
+
+  }
+
+  footer {
+      text-align: center;
+      padding: 5px;
+      margin: 20px;
+    
+  }
+
+  footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    padding: 2px;
+    font-size: 35px;
+   
+  }
+
+
